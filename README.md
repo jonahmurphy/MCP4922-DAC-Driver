@@ -38,10 +38,12 @@ The `void SPI_init(bit, bit, bit, bit, unsigned char)`
 function in `SPI.c/h` which in turn is called by `void MCP4922_init()` takes the C51 specific  `bit` type for a number of its arguments.
 To make this portable the function needs to be changed so that it takes single char in place of these to pass these config bits.
 
+The `MCP4922_DAC_A_TX_word(...)` and `MCP4922_DAC_B_TX_word(...)` functions also take the `bit` type for two of there arguments.
+This must also be changed.
 Todo
 ----
 
-Remove non-portable Keil C51 types from the `SPI.c/h` interface to make the MCP4922 Driver completly portable.
+Remove non-portable Keil C51 types from the `SPI.c/h` interface and the `MCP4922_DAC_driver.c/h` module  to make the MCP4922 Driver completly portable.
 
 
 License
