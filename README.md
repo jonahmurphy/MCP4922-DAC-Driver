@@ -24,10 +24,10 @@ Porting
 Most platform specific elements are abstracted in the included SPI Driver SPI.c/h.
 Porting should be simply a case of replacing SPI.c/h with an SPI.c/h module with same interface.
 
-Although if using a compiler other the C51 Keil compiler the following C51 specific elements will need to changed.
+#### Some non-portable Keil C51 specific elements will need to changed.
 
 **1)**
-The chip select pin is defined using the non-portable sbit type.
+The chip select pin is defined in `MCP4922_DAC_driver.h` using the non-portable `sbit` type.
 `````````````````
 /**Chip Select pin definition*/
 sbit CS = P2^1;
