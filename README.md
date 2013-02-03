@@ -16,7 +16,7 @@ Platform
 --------
 
 The driver was written for the 8051 platform using Keils C51 compiler, in particular testing was done on 
-the [T89C51RD2 MCU](http://www.atmel.com/Images/doc4243.pdf).
+the [Atmel T89C51RD2 MCU](http://www.atmel.com/Images/doc4243.pdf).
 
 Porting
 -------
