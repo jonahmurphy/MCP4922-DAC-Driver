@@ -41,7 +41,7 @@ function in `SPI.c/h` which in turn is called by `void MCP4922_init()` takes the
 To make this portable the function needs to be changed so that it takes single char in place of these to pass these config bits.
 
 The `MCP4922_DAC_A_TX_word(...)` and `MCP4922_DAC_B_TX_word(...)` functions also take the `bit` type for two of there arguments.
-This must also be changed.
+These must also be changed.
 Todo
 ----
 
