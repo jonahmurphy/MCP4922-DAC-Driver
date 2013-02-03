@@ -1,7 +1,9 @@
 MCP4922-DAC-Driver
 ==================
 
-Driver for the Dual Channel [12-bit MCP4922 SPI DAC] (http://ww1.microchip.com/downloads/en/devicedoc/21897a.pdf) from MicroChip
+Driver for the Dual Channel [12-bit MCP4922 SPI DAC] (http://ww1.microchip.com/downloads/en/devicedoc/21897a.pdf) from MicroChip.
+
+*Includes an SPI driver for the 8051 MCU.*
 
 >The MCP4922 device is a dual channel 12-bit DAC which uses an external voltage reference.
 >This device offers high accuracy and low power consumption, and is available in various packages. 
